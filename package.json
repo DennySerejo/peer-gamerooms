@@ -1,0 +1,40 @@
+{
+  "name": "peer-gamerooms",
+  "version": "0.0.1",
+  "description": "Simplifies player connection for web-rtc based games",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/ava/cli.js",
+    "test:watch": "./node_modules/ava/cli.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennySerejo/peer-gamerooms.git"
+  },
+  "keywords": [
+    "game",
+    "multiplayer",
+    "webrtc"
+  ],
+  "author": "Denny Serejo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DennySerejo/peer-gamerooms/issues"
+  },
+  "homepage": "https://github.com/DennySerejo/peer-gamerooms#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "peer": "git://github.com/DennySerejo/peerjs-server.git",
+    "signals": "^1.0.0",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "ava": "github:jamestalmage/ava#karma-ava",
+    "karma": "^1.7.0",
+    "karma-ava": "0.0.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "peerjs": "^0.3.14",
+    "sinon": "^2.4.1",
+    "socket.io-client": "^2.0.3"
+  }
+}
